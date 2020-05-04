@@ -9,20 +9,28 @@
 /* Begin PBXBuildFile section */
 		E92490DE244227E900A00458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490DD244227E900A00458 /* AppDelegate.swift */; };
 		E92490E0244227E900A00458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490DF244227E900A00458 /* SceneDelegate.swift */; };
-		E92490E2244227E900A00458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490E1244227E900A00458 /* ViewController.swift */; };
+		E92490E2244227E900A00458 /* RecognizeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490E1244227E900A00458 /* RecognizeNumberViewController.swift */; };
 		E92490E5244227E900A00458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92490E3244227E900A00458 /* Main.storyboard */; };
 		E92490E7244227E900A00458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92490E6244227E900A00458 /* Assets.xcassets */; };
 		E92490EA244227E900A00458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92490E8244227E900A00458 /* LaunchScreen.storyboard */; };
 		E92490F22442284D00A00458 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F12442284D00A00458 /* CanvasView.swift */; };
 		E92490F4244228BF00A00458 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E92490F3244228BF00A00458 /* MNIST.mlmodel */; };
 		E92490F624422BF700A00458 /* ClassExtesnions .swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F524422BF700A00458 /* ClassExtesnions .swift */; };
+		E92490F8244249C300A00458 /* ConfidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F7244249C300A00458 /* ConfidanceViewController.swift */; };
+		E932E482244440A3004F6682 /* SymbolPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E932E481244440A3004F6682 /* SymbolPrediction.swift */; };
+		E932E48424444331004F6682 /* HandwrittenNumberImagesPredictionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E932E48324444331004F6682 /* HandwrittenNumberImagesPredictionController.swift */; };
+		E972EF9824454378006CCFF8 /* PhotoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972EF9724454378006CCFF8 /* PhotoCaptureViewController.swift */; };
+		E972EF9C2445B77B006CCFF8 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972EF9B2445B77B006CCFF8 /* Enumerations.swift */; };
+		E972EFAA244BBADB006CCFF8 /* WrittenNumbers 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E972EFA9244BBADB006CCFF8 /* WrittenNumbers 1.mlmodel */; };
+		E972EFAE244BD89B006CCFF8 /* ScreenWrittenNumberPredictController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972EFAD244BD89B006CCFF8 /* ScreenWrittenNumberPredictController.swift */; };
+		E972EFB0244BF680006CCFF8 /* WrittenNumbers 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E972EFAF244BF680006CCFF8 /* WrittenNumbers 2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E92490DA244227E900A00458 /* WrittenNumbersCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrittenNumbersCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92490DD244227E900A00458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E92490DF244227E900A00458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E92490E1244227E900A00458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E92490E1244227E900A00458 /* RecognizeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeNumberViewController.swift; sourceTree = "<group>"; };
 		E92490E4244227E900A00458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E92490E6244227E900A00458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92490E9244227E900A00458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +38,15 @@
 		E92490F12442284D00A00458 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		E92490F3244228BF00A00458 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MNIST.mlmodel; path = "../../CoreML Models/MNIST.mlmodel"; sourceTree = "<group>"; };
 		E92490F524422BF700A00458 /* ClassExtesnions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassExtesnions .swift"; sourceTree = "<group>"; };
+		E92490F7244249C300A00458 /* ConfidanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidanceViewController.swift; sourceTree = "<group>"; };
+		E92490FC24424C9A00A00458 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		E932E481244440A3004F6682 /* SymbolPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPrediction.swift; sourceTree = "<group>"; };
+		E932E48324444331004F6682 /* HandwrittenNumberImagesPredictionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwrittenNumberImagesPredictionController.swift; sourceTree = "<group>"; };
+		E972EF9724454378006CCFF8 /* PhotoCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureViewController.swift; sourceTree = "<group>"; };
+		E972EF9B2445B77B006CCFF8 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		E972EFA9244BBADB006CCFF8 /* WrittenNumbers 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "WrittenNumbers 1.mlmodel"; path = "../../../../MachineLearning/WrittenNumbers 1.mlmodel"; sourceTree = "<group>"; };
+		E972EFAD244BD89B006CCFF8 /* ScreenWrittenNumberPredictController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenWrittenNumberPredictController.swift; sourceTree = "<group>"; };
+		E972EFAF244BF680006CCFF8 /* WrittenNumbers 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "WrittenNumbers 2.mlmodel"; path = "../../../../MachineLearning/WrittenNumbers 2.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +79,67 @@
 		E92490DC244227E900A00458 /* WrittenNumbersCoreML */ = {
 			isa = PBXGroup;
 			children = (
+				E972EF992445B695006CCFF8 /* Extensions&Enums */,
 				E92490DD244227E900A00458 /* AppDelegate.swift */,
 				E92490DF244227E900A00458 /* SceneDelegate.swift */,
-				E92490E1244227E900A00458 /* ViewController.swift */,
+				E92490E3244227E900A00458 /* Main.storyboard */,
+				E92490E8244227E900A00458 /* LaunchScreen.storyboard */,
+				E932E48524453F8F004F6682 /* ViewControllers */,
 				E92490F12442284D00A00458 /* CanvasView.swift */,
 				E92490F524422BF700A00458 /* ClassExtesnions .swift */,
-				E92490E3244227E900A00458 /* Main.storyboard */,
+				E92490FC24424C9A00A00458 /* MNIST.mlmodel */,
+				E92490F924424C3200A00458 /* Controllers */,
+				E92490FB24424C6500A00458 /* Models */,
+				E92490FA24424C5000A00458 /* Views */,
 				E92490F3244228BF00A00458 /* MNIST.mlmodel */,
 				E92490E6244227E900A00458 /* Assets.xcassets */,
-				E92490E8244227E900A00458 /* LaunchScreen.storyboard */,
 				E92490EB244227E900A00458 /* Info.plist */,
 			);
 			path = WrittenNumbersCoreML;
+			sourceTree = "<group>";
+		};
+		E92490F924424C3200A00458 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E972EFAD244BD89B006CCFF8 /* ScreenWrittenNumberPredictController.swift */,
+				E932E48324444331004F6682 /* HandwrittenNumberImagesPredictionController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E92490FA24424C5000A00458 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E92490FB24424C6500A00458 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E972EFA9244BBADB006CCFF8 /* WrittenNumbers 1.mlmodel */,
+				E932E481244440A3004F6682 /* SymbolPrediction.swift */,
+				E972EFAF244BF680006CCFF8 /* WrittenNumbers 2.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E932E48524453F8F004F6682 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E92490E1244227E900A00458 /* RecognizeNumberViewController.swift */,
+				E972EF9724454378006CCFF8 /* PhotoCaptureViewController.swift */,
+				E92490F7244249C300A00458 /* ConfidanceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E972EF992445B695006CCFF8 /* Extensions&Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E972EF9B2445B77B006CCFF8 /* Enumerations.swift */,
+			);
+			path = "Extensions&Enums";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,12 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92490E2244227E900A00458 /* ViewController.swift in Sources */,
+				E92490F8244249C300A00458 /* ConfidanceViewController.swift in Sources */,
+				E972EFB0244BF680006CCFF8 /* WrittenNumbers 2.mlmodel in Sources */,
+				E92490E2244227E900A00458 /* RecognizeNumberViewController.swift in Sources */,
+				E932E482244440A3004F6682 /* SymbolPrediction.swift in Sources */,
 				E92490DE244227E900A00458 /* AppDelegate.swift in Sources */,
+				E972EFAE244BD89B006CCFF8 /* ScreenWrittenNumberPredictController.swift in Sources */,
 				E92490F22442284D00A00458 /* CanvasView.swift in Sources */,
 				E92490F624422BF700A00458 /* ClassExtesnions .swift in Sources */,
+				E972EFAA244BBADB006CCFF8 /* WrittenNumbers 1.mlmodel in Sources */,
+				E972EF9824454378006CCFF8 /* PhotoCaptureViewController.swift in Sources */,
 				E92490F4244228BF00A00458 /* MNIST.mlmodel in Sources */,
+				E932E48424444331004F6682 /* HandwrittenNumberImagesPredictionController.swift in Sources */,
 				E92490E0244227E900A00458 /* SceneDelegate.swift in Sources */,
+				E972EF9C2445B77B006CCFF8 /* Enumerations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PHWN55R5A;
 				INFOPLIST_FILE = WrittenNumbersCoreML/Info.plist;
@@ -303,8 +378,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wylan.me.learning.WrittenNumbersCoreML;
+				PRODUCT_BUNDLE_IDENTIFIER = wylan.me.WrittenNumbersCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PHWN55R5A;
 				INFOPLIST_FILE = WrittenNumbersCoreML/Info.plist;
@@ -321,8 +398,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wylan.me.learning.WrittenNumbersCoreML;
+				PRODUCT_BUNDLE_IDENTIFIER = wylan.me.WrittenNumbersCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
