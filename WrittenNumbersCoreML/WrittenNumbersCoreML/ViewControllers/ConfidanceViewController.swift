@@ -25,6 +25,8 @@ class ConfidanceViewController: UIViewController   {
     func handleConfidanceDictionary() {
         
     }
+    
+    //MARK: Outlets
     @IBOutlet weak var topConfidanceLabel: UILabel!
     @IBOutlet weak var secondConfidanceLabel: UILabel!
     @IBOutlet weak var thirdConfidanceLabel: UILabel!

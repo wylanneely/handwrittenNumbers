@@ -15,7 +15,7 @@
 		E92490EA244227E900A00458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92490E8244227E900A00458 /* LaunchScreen.storyboard */; };
 		E92490F22442284D00A00458 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F12442284D00A00458 /* CanvasView.swift */; };
 		E92490F4244228BF00A00458 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E92490F3244228BF00A00458 /* MNIST.mlmodel */; };
-		E92490F624422BF700A00458 /* ClassExtesnions .swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F524422BF700A00458 /* ClassExtesnions .swift */; };
+		E92490F624422BF700A00458 /* NativeExtensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F524422BF700A00458 /* NativeExtensions .swift */; };
 		E92490F8244249C300A00458 /* ConfidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92490F7244249C300A00458 /* ConfidanceViewController.swift */; };
 		E932E482244440A3004F6682 /* SymbolPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E932E481244440A3004F6682 /* SymbolPrediction.swift */; };
 		E932E48424444331004F6682 /* HandwrittenNumberImagesPredictionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E932E48324444331004F6682 /* HandwrittenNumberImagesPredictionController.swift */; };
@@ -37,7 +37,7 @@
 		E92490EB244227E900A00458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92490F12442284D00A00458 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		E92490F3244228BF00A00458 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MNIST.mlmodel; path = "../../CoreML Models/MNIST.mlmodel"; sourceTree = "<group>"; };
-		E92490F524422BF700A00458 /* ClassExtesnions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassExtesnions .swift"; sourceTree = "<group>"; };
+		E92490F524422BF700A00458 /* NativeExtensions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NativeExtensions .swift"; sourceTree = "<group>"; };
 		E92490F7244249C300A00458 /* ConfidanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidanceViewController.swift; sourceTree = "<group>"; };
 		E92490FC24424C9A00A00458 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 		E932E481244440A3004F6682 /* SymbolPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPrediction.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				E92490E8244227E900A00458 /* LaunchScreen.storyboard */,
 				E932E48524453F8F004F6682 /* ViewControllers */,
 				E92490F12442284D00A00458 /* CanvasView.swift */,
-				E92490F524422BF700A00458 /* ClassExtesnions .swift */,
+				E92490F524422BF700A00458 /* NativeExtensions .swift */,
 				E92490FC24424C9A00A00458 /* MNIST.mlmodel */,
 				E92490F924424C3200A00458 /* Controllers */,
 				E92490FB24424C6500A00458 /* Models */,
@@ -220,7 +220,7 @@
 				E92490DE244227E900A00458 /* AppDelegate.swift in Sources */,
 				E972EFAE244BD89B006CCFF8 /* ScreenWrittenNumberPredictController.swift in Sources */,
 				E92490F22442284D00A00458 /* CanvasView.swift in Sources */,
-				E92490F624422BF700A00458 /* ClassExtesnions .swift in Sources */,
+				E92490F624422BF700A00458 /* NativeExtensions .swift in Sources */,
 				E972EFAA244BBADB006CCFF8 /* WrittenNumbers 1.mlmodel in Sources */,
 				E972EF9824454378006CCFF8 /* PhotoCaptureViewController.swift in Sources */,
 				E92490F4244228BF00A00458 /* MNIST.mlmodel in Sources */,
